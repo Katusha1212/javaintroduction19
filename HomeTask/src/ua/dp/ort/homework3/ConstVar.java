@@ -4,8 +4,8 @@ public class ConstVar {
 public static final float KATE = 7.77f;
 public static final int DIANA = 120;
 public static final long COOL = 23;
-public static final long ALEX = -85321;
-public static final double NASTY =4.5;
+public static final double ALEX = 8532;
+public static final int NASTY =4;
 	public static void main(String[] args) {
 		
 System.out.println(KATE);
