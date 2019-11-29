@@ -5,8 +5,8 @@ public class DataTypes {
 	public static void main(String[] args) {
 		byte songDuration = 3;
 		System.out.println(songDuration);
-		byte BollsAnn = 127;
-		System.out.println(BollsAnn);
+		byte bollsAnn = 127;
+		System.out.println(bollsAnn);
 		byte areaMyPool= 30;
 		System.out.println(areaMyPool);
 
@@ -21,8 +21,8 @@ public class DataTypes {
 
 //		-----------------------------------------------
 
-		int underweighttApples = -2147483648;
-		System.out.println(underweighttApples);
+		int underweightApples = -2147483648;
+		System.out.println(underweightApples);
 		int numberEggs = 1000000;
 		System.out.println(numberEggs);
 		int capacityHardDrive = 214748366;
