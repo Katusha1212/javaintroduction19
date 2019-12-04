@@ -8,10 +8,10 @@ public class HomeWork4 {
 	int a = 5;
 	int b = 10;
 	
-    int sum = (a + b);
-    int difference = (a - b);
-    int composition = (a * b);
-    float div = ((float) a / b);
+    int sum = a + b;
+    int difference = a - b;
+    int composition = a * b;
+    float div = (float) a / b;
     
     // результаты вывести в консоль
     
@@ -21,13 +21,12 @@ public class HomeWork4 {
     System.out.println(div);
     
     // 2) Возвести число 5 в степень 5
-   int numbers = 5;
+   int number = 5;
    int degree = 5;
     
 //   результаты вывести в консоль
-    System.out.println(Math.pow(numbers, degree));
-    System.out.println("Число пять в пятой степени равно " + Math.pow(5 , 5));
-    System.out.println(numbers * numbers * numbers * numbers * numbers);
+    System.out.println(Math.pow(number, degree));
+    System.out.println(number * number * number * number * number);
     
 //    3) Дана функция y = 2x + 5;
 //    вывести значение y при  x = 2
@@ -48,7 +47,7 @@ public class HomeWork4 {
     
     float x2 = 4.5f;
     float y2 = 3.1f;
-    float squareRectangle = (x2 * y2);
+    float squareRectangle = x2 * y2;
     System.out.println(squareRectangle);
     
 //количество полных квадратных метров площади прямоуголька
@@ -61,8 +60,7 @@ public class HomeWork4 {
     int children = 3;
     int applesForBaby = (apples / children);
     System.out.println(applesForBaby);
-    System.out.println(Math.floor(applesForBaby));
-    
+  
 //    с помощью арифметических операций вычислить сколько яблок осталось.
     
     System.out.println(apples % applesForBaby );
@@ -76,15 +74,16 @@ public class HomeWork4 {
     
     double distanceLength = 1.43;
     double lengthJumpFrog = 0.025 ;
-    double numberJumps = (distanceLength/lengthJumpFrog);
-    System.out.println(Math.floor(numberJumps));
+    double distanceToJump = distanceLength / 2;       
+    int numberFullJumps = (int) (distanceToJump / lengthJumpFrog); 
+    System.out.println(numberFullJumps);
 
     
 //    7) дано 2 числа типа.Вывести корректную сумму этих чисел 
 
     int firstOperand = 1999999999;
     int secondOperand = 1999999999;
-    long rezult = (long) firstOperand +  secondOperand ;
+    long rezult = ((long) firstOperand +  secondOperand) ;
     System.out.println(rezult);
     
 
