@@ -85,8 +85,6 @@ public class HomeWork4 {
     int secondOperand = 1999999999;
     long rezult = ((long) firstOperand +  secondOperand) ;
     System.out.println(rezult);
-    
-
+   
 	}
-
 }
