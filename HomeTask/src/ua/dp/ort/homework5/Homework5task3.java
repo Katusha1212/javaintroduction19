@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Homework5task3 {
 
 	public static void main(String[] args) {
-		//Написать программу, которая позволяет определить тип фигуры, квадрат или прямоугольник.
-		//  Значение сторон фигуры должны вводиться с клавиатуры. Результат работы программы это вывод в консоль типа фигуры.
+		// task3
 
 		Scanner scanner = new Scanner(System.in);
 		
