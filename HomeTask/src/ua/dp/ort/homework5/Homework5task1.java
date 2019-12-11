@@ -18,15 +18,9 @@ public class Homework5task1 {
 		userInput = scanner.nextLine();
 		double width = Double.parseDouble(userInput);
 
-		String userInfo = "Rectangle area is ";
+		String resultComputation = "Rectangle area is ";
 
-		if (length != width) {
-			userInfo = userInfo + (length + width) * 2;
-		} else {
-			userInfo = "This is not a rectangle";
-
-		}
-		System.out.println(userInfo);
+		System.out.println(resultComputation + (length * width));
 		scanner.close();
 	}
 
