@@ -21,31 +21,36 @@ public class Homework5task2 {
 		double b = Double.parseDouble(userInput);
 		System.out.println("Your second number is  " + userInput);
 
-		if (a == b);
-			
-		System.out.println("a == b = " + (a == b));
+		if (a == b) {
 
-		if (a != b);
-			
-		System.out.println("a != b = " + (a != b));
+			System.out.println("a = b");
+		}
 
-		if (a > b);
-			
-		System.out.println("a > b = " + (a > b));
+		if (a != b) {
 
-		if (a >= b);
-			
-		System.out.println("a >= b = " + (a >= b));
+			System.out.println("a != b");
 
-		if (a < b);
-			
-		System.out.println("a < b = " + (a < b));
+			if (a >= b) {
 
-		if (a <= b);
-			
-		System.out.println("a <= b = " + (a <= b));
+				System.out.println("a >=b");
 
+				if (a > b) {
+
+					System.out.println("a > b");
+				}
+			}
+
+			if (a <= b) {
+
+				System.out.println("a <= b");
+
+				if (a < b) {
+
+					System.out.println("a < b");
+				}
+			}
+
+		}
 		scanner.close();
 	}
-
 }
