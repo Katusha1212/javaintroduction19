@@ -40,4 +40,5 @@ public class Homework5task2 {
 	      if (firstNumber <= secondNumber){
 	    System.out.println("First number a are equal or less second number b");
 	    }
+	      scanner.close();
 	}}
