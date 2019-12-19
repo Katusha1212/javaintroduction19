@@ -9,48 +9,35 @@ public class Homework5task2 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		String userInput;
+	    String userInput;
 
-		System.out.println("Input first number a ->");
-		userInput = scanner.nextLine();
-		double a = Double.parseDouble(userInput);
-		System.out.println("Your first number a is " + userInput);
+	    System.out.println("Input first number  ->");
+	    userInput = scanner.nextLine();
+	    double firstNumber = Double.parseDouble(userInput);
+	    System.out.println("Your first number  is " + userInput);
 
-		System.out.println("Input your second number b ->");
-		userInput = scanner.nextLine();
-		double b = Double.parseDouble(userInput);
-		System.out.println("Your second number is  " + userInput);
+	    System.out.println("Input your second number ->");
+	    userInput = scanner.nextLine();
+	    double secondNumber = Double.parseDouble(userInput);
+	    System.out.println("Your second number is  " + userInput);
 
-		if (a == b) {
-
-			System.out.println("a = b");
-		}
-
-		if (a != b) {
-
-			System.out.println("a != b");
-
-			if (a >= b) {
-
-				System.out.println("a >=b");
-
-				if (a > b) {
-
-					System.out.println("a > b");
-				}
-			}
-
-			if (a <= b) {
-
-				System.out.println("a <= b");
-
-				if (a < b) {
-
-					System.out.println("a < b");
-				}
-			}
-
-		}
-		scanner.close();
-	}
-}
+	    if (firstNumber == secondNumber) {
+	   System.out.println("Numbers are equal");
+	    } else {
+	        System.out.println("Numbers are different");
+	      }
+	  
+	      if (firstNumber > secondNumber) {
+	        System.out.println("First number a is greater than second number b");
+	      }
+	      if (firstNumber < secondNumber){
+	      System.out.println("First number a are less than second number b");
+	    }
+	  
+	      if (firstNumber >= secondNumber) {
+	        System.out.println("First number a is equal or greater second number b");
+	      } 
+	      if (firstNumber <= secondNumber){
+	    System.out.println("First number a are equal or less second number b");
+	    }
+	}}
