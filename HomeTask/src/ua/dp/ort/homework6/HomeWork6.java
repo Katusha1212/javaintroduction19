@@ -3,7 +3,7 @@ package ua.dp.ort.homework6;
 import java.util.Scanner;
 
 public class HomeWork6 {
-  
+
 	public static final int COFFEE = 1;
 	public static final int SODA = 2;
 	public static final int COCA_COLA = 3;
@@ -103,17 +103,18 @@ public class HomeWork6 {
 			if (productType == EXIT) {
 				System.out.println("Exit from program!");
 
-			}}
-
-			if (moneyUser < COST_SODA)
-
-			{
-				System.out.println("Sorry, you don’t have enough money.");
-				   System.out.println("Exit from program!");
-				   System.out.println("For exit input 0");
-					userInput = scanner.nextLine();
 			}
-			  scanner.close();
 		}
-		
+
+		if (moneyUser < COST_SODA)
+
+		{
+			System.out.println("Sorry, you don’t have enough money.");
+			System.out.println("Exit from program!");
+			System.out.println("For exit input 0");
+			userInput = scanner.nextLine();
+		}
+		scanner.close();
 	}
+
+}
