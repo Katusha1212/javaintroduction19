@@ -44,20 +44,20 @@ public class HomeWork6 {
 
 			if (productType == COFFEE) {
 				restOfMoneyUser = (int) (moneyUser - COST_COFFEE);
-				System.out.println("Your product is coffee, it cost 5. The rest of money is " + restOfMoneyUser);
+				System.out.println("Your product is coffee, it cost" + COST_COFFEE +" The rest of money is " + restOfMoneyUser);
 
 			}
 			if (productType == SODA) {
 				restOfMoneyUser = (int) (moneyUser - COST_SODA);
-				System.out.println("Your choice soda , it cost 3. The rest of money is " + restOfMoneyUser);
+				System.out.println("Your choice soda , it cost" +  COST_SODA + "The rest of money is " + restOfMoneyUser);
 			}
 			if (productType == COCA_COLA) {
 				restOfMoneyUser = (int) (moneyUser - COST_COCA_COLA);
-				System.out.println("Your choice Coca-Cola , it cost 10. The rest of money is " + restOfMoneyUser);
+				System.out.println("Your choice Coca-Cola , it cost " + COST_COCA_COLA + "The rest of money is " + restOfMoneyUser);
 			}
 			if (productType == PEPSI_COLA) {
 				restOfMoneyUser = (int) (moneyUser - COST_PEPSI_COLA);
-				System.out.println("Your choice Pepsi-Cola , it cost 10. The rest of money is " + restOfMoneyUser);
+				System.out.println("Your choice Pepsi-Cola , it cost" + COST_PEPSI_COLA + "The rest of money is " + restOfMoneyUser);
 			}
 			if (productType == EXIT) {
 				System.out.println("Exit from program!");
@@ -76,12 +76,12 @@ public class HomeWork6 {
 
 			if (productType == COFFEE) {
 				restOfMoneyUser = (int) (moneyUser - COST_COFFEE);
-				System.out.println("Your product is coffee, it cost 5. The rest of money is " + restOfMoneyUser);
+				System.out.println("Your product is coffee, it cost" + COST_COFFEE + "The rest of money is " + restOfMoneyUser);
 
 			}
 			if (productType == SODA) {
 				restOfMoneyUser = (int) (moneyUser - COST_SODA);
-				System.out.println("Your choice soda , it cost 3. The rest of money is " + restOfMoneyUser);
+				System.out.println("Your choice soda , it cost" +  COST_SODA + "The rest of money is " + restOfMoneyUser);
 			}
 
 			if (productType == EXIT) {
@@ -98,7 +98,7 @@ public class HomeWork6 {
 			int productType = Integer.parseInt(userInput);
 			if (productType == SODA) {
 				restOfMoneyUser = (int) (moneyUser - COST_SODA);
-				System.out.println("Your choice soda , it cost 3. The rest of money is " + restOfMoneyUser);
+				System.out.println("Your choice soda , it cost" + COST_SODA + "The rest of money is " + restOfMoneyUser);
 			}
 			if (productType == EXIT) {
 				System.out.println("Exit from program!");
