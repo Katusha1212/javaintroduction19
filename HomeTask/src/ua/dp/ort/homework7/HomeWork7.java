@@ -18,17 +18,16 @@ public class HomeWork7 {
 
 			if (litersOfTank < 1000) {
 				System.out.println("Your input is not corect");
-			}
-
-			else {
-
+			} else {
 				break;
 			}
 		}
+
 		while (true) {
 			System.out.println("Input milliliters of pump ->");
 			userInput = scanner.nextLine();
 			millilitersOfPump = Double.parseDouble(userInput);
+			
 			if (millilitersOfPump <= 0) {
 				System.out.println("Your input is not corect");
 			} else {
@@ -44,10 +43,10 @@ public class HomeWork7 {
 			if (numberOfLitersForClient <= 0) {
 				System.out.println("Your input is not corect");
 			} else {
-
 				break;
 			}
 		}
+
 		while (true) {
 			System.out.println("Remaining fuel at a gas station is " + (litersOfTank - numberOfLitersForClient));
 			System.out.println(
