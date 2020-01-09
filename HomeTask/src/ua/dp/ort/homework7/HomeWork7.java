@@ -53,13 +53,9 @@ public class HomeWork7 {
 			}
 		}
 
-		while (true) {
-			System.out.println(
-					"Remaining fuel at a gas station is " + (litersOfTank - numberOfLitersForClient) + " liters ");
-			System.out.println("The number of pump-up portions is "
-					+ (numberOfLitersForClient * NUMBERS_OF_MILLILITERS_IN_ONE_LITER) / millilitersOfPump);
-			break;
-		}
-
+		System.out
+				.println("Remaining fuel at a gas station is " + (litersOfTank - numberOfLitersForClient) + " liters ");
+		System.out.println("The number of pump-up portions is "
+				+ (numberOfLitersForClient * NUMBERS_OF_MILLILITERS_IN_ONE_LITER) / millilitersOfPump);
 	}
 }
