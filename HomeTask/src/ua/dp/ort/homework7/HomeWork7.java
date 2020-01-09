@@ -37,7 +37,7 @@ public class HomeWork7 {
 		}
 
 		while (true) {
-			System.out.println("Input Number of liters for client ->");
+			System.out.println("Input Number of liters for client -");
 			userInput = scanner.nextLine();
 			numberOfLitersForClient = Double.parseDouble(userInput);
 
