@@ -12,7 +12,7 @@ public class HomeWork7 {
 		double numberOfLitersForClient = 0;
 
 		while (true) {
-			System.out.println("Input litters of tank");
+			System.out.println("Input litters of tank ->");
 			userInput = scanner.nextLine();
 			litersOfTank = Double.parseDouble(userInput);
 
@@ -26,7 +26,7 @@ public class HomeWork7 {
 			}
 		}
 		while (true) {
-			System.out.println("Input milliliters of pump");
+			System.out.println("Input milliliters of pump ->");
 			userInput = scanner.nextLine();
 			millilitersOfPump = Double.parseDouble(userInput);
 			if (millilitersOfPump <= 0) {
@@ -37,7 +37,7 @@ public class HomeWork7 {
 		}
 
 		while (true) {
-			System.out.println("Input Number of liters for client");
+			System.out.println("Input Number of liters for client ->");
 			userInput = scanner.nextLine();
 			numberOfLitersForClient = Double.parseDouble(userInput);
 
