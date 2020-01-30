@@ -10,7 +10,7 @@ public class HomeWork8Task4 {
 		int[] userNumbers = new int[20];
 
 		for (int counter = 0; counter < 20; counter++) {
-			System.out.print("Please input " + (counter + 1) + " number  ");
+			System.out.print("Please input " + (counter + 1) + " number > ");
 
 			String userInput = scanner.nextLine();
 			int userNumber = Integer.parseInt(userInput);
@@ -19,23 +19,23 @@ public class HomeWork8Task4 {
 
 		scanner.close();
 		int max = userNumbers[0];
-        int imax = 0;
-        int min = userNumbers[0];
-        int imin = 0;
-        for (int counter = 1; counter < userNumbers.length; counter++) {
-            if (userNumbers[counter] > max) {
-                max = userNumbers[counter];
-                imax = counter;
-            }
-            if (userNumbers[counter] < min) {
-                min = userNumbers[counter];
-                imin = counter;
-            }
-        }
-        userNumbers[imin] = max;
-        userNumbers[imax] = min;
-        for (int counter = 0; counter < userNumbers.length; counter++) {
-            System.out.println("i = " + counter + " userNumbers[" + counter + "]=" + userNumbers[counter]);
-        }
-    }
+		int imax = 0;
+		int min = userNumbers[0];
+		int imin = 0;
+		for (int counter = 1; counter < userNumbers.length; counter++) {
+			if (userNumbers[counter] > max) {
+				max = userNumbers[counter];
+				imax = counter;
+			}
+			if (userNumbers[counter] < min) {
+				min = userNumbers[counter];
+				imin = counter;
+			}
+		}
+		userNumbers[imin] = max;
+		userNumbers[imax] = min;
+		for (int counter = 0; counter < userNumbers.length; counter++) {
+			System.out.println("i = " + counter + " userNumbers[" + counter + "]=" + userNumbers[counter]);
+		}
+	}
 }

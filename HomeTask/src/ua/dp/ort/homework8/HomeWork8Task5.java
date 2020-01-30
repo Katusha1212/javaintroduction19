@@ -10,7 +10,7 @@ public class HomeWork8Task5 {
 		int[] userNumbers = new int[20];
 
 		for (int counter = 0; counter < 20; counter++) {
-			System.out.print("Please input " + (counter + 1) + " number  ");
+			System.out.print("Please input " + (counter + 1) + " number  >");
 
 			String userInput = scanner.nextLine();
 			int userNumber = Integer.parseInt(userInput);
