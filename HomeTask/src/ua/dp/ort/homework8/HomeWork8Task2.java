@@ -32,7 +32,7 @@ public class HomeWork8Task2 {
 		}
 
 		rezult = sum / pozitiveCount;
-		System.out.println("Cеднее арифметическое положительных элементов " + rezult);
+		System.out.println("Arithmetic mean of positive elements " + rezult);
 
 	}
 }

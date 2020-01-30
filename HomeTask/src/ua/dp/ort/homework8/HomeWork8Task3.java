@@ -1,5 +1,6 @@
 package ua.dp.ort.homework8;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeWork8Task3 {
@@ -17,24 +18,11 @@ public class HomeWork8Task3 {
 		}
 
 		scanner.close();
-		int min = userNumbers[0];
-		int max = userNumbers[0];
-		int counter = 0;
 
-		for (counter = 1; counter < userNumbers.length; counter++) {
-			if (min > userNumbers[counter]) {
-				min = userNumbers[counter];
-			}
-		}
+		Arrays.sort(userNumbers);
 
-		for (counter = 1; counter < userNumbers.length; counter++) {
-			if (max < userNumbers[counter]) {
-				max = userNumbers[counter];
-			}
-		}
-		System.out.println("Минимальный элемент " + min);
-		System.out.println("Максимальный элемент " + max);
-
+		System.out.println("First smallest element " + userNumbers[0]);
+		System.out.println("Second smallest element " + userNumbers[1]);
 	}
 
 }

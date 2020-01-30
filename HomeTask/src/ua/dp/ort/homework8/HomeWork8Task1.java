@@ -30,7 +30,7 @@ public class HomeWork8Task1 {
 
 		}
 
-		System.out.println("Сумма четных положительных элементов " + sum);
+		System.out.println("Sum of even positive elements " + sum);
 
 	}
 }
