@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UserInput {
 
 	public static int input(Scanner scanner) {
-		String inputUser = scanner.nextLine();
+		String inputUser =scanner.nextLine();
 
 		return Integer.parseInt(inputUser);
 	}
